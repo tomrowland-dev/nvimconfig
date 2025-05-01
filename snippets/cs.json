@@ -1,0 +1,13 @@
+{
+  "csdefault": {
+    "prefix": ["main"],
+    "body": [
+      "class $1 {",
+      "\tpublic static void Main(string[] args){",
+      "\t\t$0",
+      "\t}",
+      "}"
+    ],
+    "description": "Standard main function for cs"
+  }
+}
