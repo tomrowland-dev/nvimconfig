@@ -24,4 +24,5 @@ return {
   { import = "astrocommunity.colorscheme.kanagawa-nvim" },
   { import = "astrocommunity.media.codesnap-nvim" },
   { import = "astrocommunity.game.leetcode-nvim" },
+  { import = "astrocommunity.markdown-and-latex.markview-nvim" },
 }
