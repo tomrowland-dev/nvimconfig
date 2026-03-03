@@ -1,15 +1,14 @@
 return {
-    "AstroNvim/astrocore",
-    ---@type AstroCoreOpts
-    opts = {
-      mappings = {
+  "AstroNvim/astrocore",
+  ---@type AstroCoreOpts
+  opts = {
+    mappings = {
       n = {
         ["go"] = {
-          function()
-            require("auto-pandoc").run_pandoc()
-            end,
-        }
-      }
-    }
-  }
+          ":!pandoc '%:r.md' -o '%:r.docx' <CR>",
+          desc = "Pandoc - Convert to docx",
+        },
+      },
+    },
+  },
 }
